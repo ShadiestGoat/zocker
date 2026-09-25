@@ -84,6 +84,7 @@ export const default_generators: InstanceofGeneratorDefinition<any>[] = [
 	NullableGenerator,
 	AnyGenerator,
 	UnknownGenerator,
+	CodecGenerator,
 	PipeGenerator,
 	ArrayGenerator,
 	TupleGenerator,
@@ -128,5 +129,4 @@ export const default_generators: InstanceofGeneratorDefinition<any>[] = [
 		match: "instanceof"
 	},
 	IntersectionGenerator,
-	CodecGenerator
 ];
