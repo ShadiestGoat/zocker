@@ -21,7 +21,8 @@
 		"build": "tsdown --dts --format cjs --format esm",
 		"test": "vitest --run --passWithNoTests",
 		"check": "tsc --noEmit",
-		"format": "prettier --write ."
+		"format": "prettier --write .",
+		"prepare": "pnpm build"
 	},
 	"devDependencies": {
 		"tsdown": "^0.12.9",
