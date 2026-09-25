@@ -98,7 +98,7 @@ export class Zocker<Z extends z.$ZodType> {
 	 */
 	supply<S extends z.$ZodType>(
 		schema: S,
-		generator: Generator<S> | z.infer<S>
+		generator: Generator<S> | z.output<S> | z.input<S>
 	) {
 		const next = this.clone();
 

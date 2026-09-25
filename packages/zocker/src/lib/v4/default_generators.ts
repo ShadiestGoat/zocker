@@ -47,7 +47,8 @@ import {
 	Base64URLGenerator,
 	GUIDGenerator,
 	KSUIDGenerator,
-	XIDGenerator
+	XIDGenerator,
+	CodecGenerator
 } from "./generators/index.js";
 
 export const default_generators: InstanceofGeneratorDefinition<any>[] = [
@@ -126,5 +127,6 @@ export const default_generators: InstanceofGeneratorDefinition<any>[] = [
 		generator: () => void 0,
 		match: "instanceof"
 	},
-	IntersectionGenerator
+	IntersectionGenerator,
+	CodecGenerator
 ];
