@@ -4,3 +4,6 @@ catalog:
   zod: "^3.25.0 || ^4.1.0"
   vitest: ^3.2.4
   typescript: ^5.8.3
+
+allowBuilds:
+  esbuild: true
